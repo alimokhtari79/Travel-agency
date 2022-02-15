@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Travel Agency</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="main-header">
+    <nav class="header">
+      <div class="logo">
+        <a href="#hero">Travelcations</a>
+      </div>
+      <ul class="header__items">
+        <li class="header__item">
+          <a href="#locations">Locations</a>
+        </li>
+        <li class="header__item">
+          <a href="#benefits">Benefits</a>
+        </li>
+        <li class="header__item">
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Header -->
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <h1>Life is short and the world is wide !</h1>
+    <h3 class="hero__description">
+      To get the best of your adventure you just need to leave and go where you like.
+    </h3>
+    <button class="hero__btn">
+      Plan a Trip
+    </button>
+  </section>
+  <!-- Hero Section -->
+
+  <!-- Locations Section -->
+  <section id="locations">
+    <header class="locations__head">
+      <h2>
+        Perfect Travelling Experience.
+      </h2>
+      <h3 class="locations__description">
+        We Cover everything from picking the perfect hotel,
+        flight and travelling destination.
+      </h3>
+      <img src="./assets/img/cloud.png" class="cloud moving-cloud-1" />
+    </header>
+  </section>
+  <!-- Locations Section -->
+
+  <!-- Benefits Section -->
+  <section id="benefits">
+    <header class="benefits__description">
+      <h1>
+        Don't just dream of a vacation. Just do it!
+      </h1>
+    </header>
+
+    <div class="carts">
+      <div class="benefits__cart" data-tilt data-tilt-scale='1.2'>
+        <h4>Hotel</h4>
+        <img src="./assets/icons/hotel-solid.svg" alt="hotel">
+        <strong>Luxury is not a place, it's an experience.</strong>
+      </div>
+      <div class="benefits__cart" data-tilt data-tilt-scale='1.2'>
+        <h4>Travel</h4>
+        <img src="./assets/icons/plane-solid.svg" alt="Travel">
+        <strong>Make your Hassle Free travel plans now !</strong>
+      </div>
+      <div class="benefits__cart" data-tilt data-tilt-scale='1.2'>
+        <h4>Food</h4>
+        <img src="./assets/icons/concierge-bell-solid.svg" alt="Food">
+        <strong>Every day is a good day for your restaurant</strong>
+      </div>
+    </div>
+  </section>
+  <!-- Benefits Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="form-wrapper">
+      <header class="form-head">
+        <h2>Contact Us</h2>
+      </header>
+      <form class="form">
+        <div class="form__name">
+          <label for="name">Name</label>
+          <input type="text" name="name" class="form__input" required>
+        </div>
+        <div class="form__email">
+          <label for="email">Email</label>
+          <input type="text" name="email" class="form__input" required>
+        </div>
+        <button type="submit" class="form__btn">Submit</button>
+      </form>
+    </div>
+  </section>
+  <!-- Contact Section -->
+  <!-- Footer -->
+  <footer class="main-footer">
+    <nav>
+      <ul class="footer__items">
+        <li class="footer__item">
+          <a href="#">
+            <img src="./assets/icons/instagram-brands.svg" alt="instagram">
+          </a>
+        </li>
+        <li class="footer__item">
+          <a href="#">
+            <img src="./assets/icons/instagram-brands.svg" alt="twitter">
+          </a>
+        </li>
+        <li class="footer__item">
+          <a href="#">
+            <img src="./assets/icons/telegram-brands.svg" alt="telegram">
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </footer>
+  <!-- Footer -->
+  <script src="vailla-tilt.min.js"></script>
+</body>
+
+</html>
