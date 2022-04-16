@@ -220,13 +220,12 @@ button image {
 	height: 100vh;
 	color: var(--primary-400);
 	display: flex;
-	justify-content: center;
 	flex-direction: column;
 	align-items: center;
 }
 
 .benefits__description {
-	margin-top: 0;
+	margin-top: 5rem;
 }
 
 .benefits__description h1 {
@@ -392,11 +391,24 @@ button image {
 	#locations .locations__description {
 		padding: 0;
 	}
+	#benefits {
+		display: flex;
+		justify-content: center;
+	}
+	.benefits__description {
+		margin-top: 0;
+	}
 	.moving-cloud-1 {
 		z-index: 1;
 	}
 	.form .form__input {
 		margin-right: 0;
+	}
+}
+
+@media (max-width: 31rem) {
+	html {
+		font-size: 45%;
 	}
 }
 
