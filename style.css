@@ -250,8 +250,9 @@ button image {
 }
 
 .benefits__cart {
-	min-height: 20rem;
+	/* height: 20rem; */
 	color: var(--white);
+	padding: 0.5rem 1rem;
 	text-align: center;
 	border-radius: 2rem;
 	display: flex;
@@ -370,7 +371,7 @@ button image {
 
 /* Media Query */
 
-@media (min-width: 45rem) {
+@media (min-width: 40rem) {
 	html {
 		font-size: 62.5%;
 	}
