@@ -145,7 +145,7 @@ button image {
 /* hero Section */
 
 #hero {
-	min-height: 100vh;
+	min-height: 120vh;
 	background: url('./assets/img/landing-page.jpg') no-repeat center;
 	background-size: cover;
 	color: var(--white);
@@ -171,7 +171,7 @@ button image {
 /* Locations */
 
 #locations {
-	min-height: 100vh;
+	min-height: 120vh;
 	background: linear-gradient(rgba(0, 0, 0, 0.3), transparent),
 		url('./assets/img/new-york-page.png') no-repeat center;
 	background-size: cover;
@@ -218,7 +218,7 @@ button image {
 #benefits {
 	background: url('./assets/img/louver-museum.jpg') no-repeat center;
 	background-size: cover;
-	height: 100vh;
+	min-height: 120vh;
 	color: var(--primary-400);
 	display: flex;
 	flex-direction: column;
@@ -271,7 +271,7 @@ button image {
 
 .benefits__cart img {
 	height: 4rem;
-	margin: 2.5rem;
+	margin: 1.5rem 0;
 }
 
 .benefits__cart strong {
@@ -288,7 +288,7 @@ button image {
 /* Contact */
 
 #contact {
-	height: 90vh;
+	min-height: 120vh;
 	background: url('./assets/img/london.jpg') no-repeat center;
 	background-size: cover;
 	color: var(--white);
@@ -300,7 +300,6 @@ button image {
 
 .form-wrapper {
 	background-color: rgba(19, 28, 39, 0.8);
-	min-width: 40vw;
 	border-radius: 25px;
 }
 
